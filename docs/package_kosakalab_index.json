@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/kimio-kosaka/bitDuino10/archive/v1.0.0.tar.gz",
           "archiveFileName": "bitDuino10-1.0.0.tar.gz",
-          "checksum": "SHA-256:",
-          "size": "",
+          "checksum": "SHA-256:dcc2b973343ef30b5cf1b863ce9b41c7b773bde350c5b33f5e5a38bf163cd216",
+          "size": "29588",
           "boards": [
             {"name": "ATtiny10"}
           ],
