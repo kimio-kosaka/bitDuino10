@@ -24,10 +24,44 @@
           "boards": [
             {"name": "ATtiny10"}
           ],
-          "toolsDependencies": []
+          "toolsDependencies": [
+            {
+              "packager": "bitDuino10",
+              "name": "gcc-avr",
+              "version": "4.9.2"
+            }
+          ]
         }
       ],
-      "tools": []
+      "tools": [
+        {
+          "version": "4.9.2",
+          "name": "gcc-avr",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/kimio-kosaka/Arduino_AVR-Microcontrollers/releases/download/v1.0.0/avr-win_v1.0.0.zip",
+              "archiveFileName": "avr-win_v1.0.0.zip",
+              "checksum": "SHA-256:9318fecfc13708292f6e5b4498efbfafe6030125b7bb48e59d0ad2690a87150d",
+              "size": "48119053"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/kimio-kosaka/Arduino_AVR-Microcontrollers/releases/download/v1.0.0/avr-win_v1.0.0.zip",
+              "archiveFileName": "avr-mac_v1.0.0.zip",
+              "checksum": "SHA-256:e2666c47e8250217e2c2595f7a38ac646ddc93ad1d28b237f20c11f562a99dda",
+              "size": "249749006"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "https://github.com/kimio-kosaka/Arduino_AVR-Microcontrollers/releases/download/v1.0.0/avr-win_v1.0.0.zip",
+              "archiveFileName": "avr-mac_v1.0.0.zip",
+              "checksum": "SHA-256:5e2666c47e8250217e2c2595f7a38ac646ddc93ad1d28b237f20c11f562a99dda",
+              "size": "49749006"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
